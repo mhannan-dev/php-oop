@@ -21,7 +21,7 @@
                 echo "Number 1 = " . $number1 ."<br/>";
                 echo "Number 2 = " . $number2 ."<br/>";
 
-                $newCal = new Calculate;
+                $newCal = new Calculate();
                 $newCal->add($number1, $number2); 
                 $newCal->minus($number1, $number2); 
             }
